@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow3">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000033"/>
+    </filter>
+  </defs>
+  <circle cx="96" cy="96" r="88" fill="url(#bg3)" filter="url(#shadow3)"/>
+  <!-- 指纹圆弧 - 紫色版本 -->
+  <path d="M60 130 Q60 70 96 60 Q132 50 140 100" stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M72 130 Q72 80 96 72 Q120 64 128 100" stroke="white" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M82 125 Q82 90 96 84 Q110 78 116 100" stroke="white" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <!-- 底部弧线 -->
+  <path d="M56 140 Q96 155 136 140" stroke="white" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"/>
+</svg>
